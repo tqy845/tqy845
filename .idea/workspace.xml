@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75ec52b1-094f-4f64-b4bb-cd4e831dad57" name="默认的" comment="默认的">
-      <change afterPath="$PROJECT_DIR$/assets/brand/bootstrap-logo-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/brand/bootstrap-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/image/jixielogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/carousel.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/pricing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/starter-template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +30,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\html\wgsj" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\html\wgsj\sign-in\css" />
       <recent name="G:\html\wgsj" />
     </key>
   </component>
@@ -62,7 +54,7 @@
       <workItem from="1621852491542" duration="160000" />
       <workItem from="1621852725725" duration="30000" />
       <workItem from="1621853756334" duration="14713000" />
-      <workItem from="1621937917196" duration="1965000" />
+      <workItem from="1621937917196" duration="5750000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1621867546611</created>
