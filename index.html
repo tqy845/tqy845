@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="Mark Otto, Jacob Thornton, and Bootstrap contributors" name="author">
+    <meta content="Hugo 0.83.1" name="generator">
+    <title>计算机协会，欢迎您！</title>
+
+    <link href="https://getbootstrap.com/docs/5.0/examples/carousel/" rel="canonical">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        /*缩放英文字体*/
+        .english_font {
+            display: inline-block;
+            font-size: 12px;
+        }
+
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+
+        div > div > span {
+            background-color: #777;
+            font-size: 130px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        .Link {
+            text-decoration: none
+        }
+
+        tbody > tr > td {
+            font-weight: bold;
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/starter-template.css" rel="stylesheet">
+</head>
+<body>
+
+
+<!--导航栏-->
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none" href="index.html">
+                <img alt="" height="35px" src="base/image/jixielogo.png">&nbsp;&nbsp;
+            </a>
+            <a class="navbar-brand" href="index.html">计算机协会</a>
+            <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                    data-bs-target="#navbarCollapse" data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link active" href="index.html">主页 <span class="english_font"> / Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">新闻 <span class="english_font"> / News</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-disabled="true" class="nav-link disabled" href="#" tabindex="-1">活动 <span
+                                class="english_font"> / Activity</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-disabled="true" class="nav-link disabled" href="#" tabindex="-1">相册 <span
+                                class="english_font"> / Photo</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-disabled="true" class="nav-link disabled" href="#" tabindex="-1">关于 <span
+                                class="english_font"> / About</span></a>
+                    </li>
+                </ul>
+
+                <div class="text-end">
+                    <button class="btn btn-outline-light me-2" type="button">登陆 / Login</button>
+                    <button class="btn btn-warning" type="button">注册 / Sign-up</button>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--主体部分-->
+<main>
+
+    <div class="carousel slide" data-bs-ride="carousel" id="myCarousel">
+        <div class="carousel-indicators">
+            <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#myCarousel"
+                    type="button"></button>
+            <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#myCarousel" type="button"></button>
+            <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#myCarousel" type="button"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div style="width:1500px;margin: 0 auto"><img src="temp/01.png"></div>
+                <svg aria-hidden="true" class="bd-placeholder-img" focusable="false" height="100%"
+                     preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <rect fill="#777" height="100%" width="100%"/>
+
+                </svg>
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>全“心”启航</h1>
+                        <p>更新预告：全新主页、全“心”设计、全“心”服务，即将上线！</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">新闻详情 <span
+                                class="english_font">/ News details</span></a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                
+                <svg aria-hidden="true" class="bd-placeholder-img" focusable="false" height="100%"
+                     preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <rect fill="#777" height="100%" width="100%"/>
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>电影放映周</h1>
+                        <p>我相信你也想来一场说看就看的电影，即刻行动吧~</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">了解更多 <span
+                                class="english_font">/ Learn more</span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <svg aria-hidden="true" class="bd-placeholder-img" focusable="false" height="100%"
+                     preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <rect fill="#777" height="100%" width="100%"/>
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>美好时光</h1>
+                        <p>嘿！用心守护好那些陪你前行的小伙伴。</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">浏览相册 <span
+                                class="english_font">/ Browse photo</span></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#myCarousel" type="button">
+            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#myCarousel" type="button">
+            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+        <span>
+          <svg aria-hidden="true" class="icon">
+            <use xlink:href="#icon-huiyuanziduan"></use>
+          </svg>
+        </span>
+                <h2>会员人数 x 110<span class="english_font"></span></h2>
+                <p>会员表示已加入计算机协会的各个成员，会员将享有社团提供的各项权益。</p>
+                <p><a class="btn btn-secondary" href="#">查看 <span class="english_font">/ View</span></a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+        <span>
+          <svg aria-hidden="true" class="icon">
+            <use xlink:href="#icon-ziyuan"></use>
+          </svg>
+        </span>
+                <h2>资源分享 x 89<span class="english_font"></span></h2>
+                <p>在此，协会会不定期分享一些资源，当然，也包括来自各个小伙伴的分享。</p>
+                <p><a class="btn btn-secondary" href="#">查看 <span class="english_font">/ View</span></a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+        <span>
+          <svg aria-hidden="true" class="icon">
+            <use xlink:href="#icon-liuyan"></use>
+          </svg>
+        </span>
+                <h2>留言 x 119<span class="english_font"></span></h2>
+                <p>你是否也有想说的话？还是想看看大家都说了些什么呢？来这里瞧瞧，会有你想要的答案。</p>
+                <p><a class="btn btn-secondary" href="#">查看 <span class="english_font">/ View</span></a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+        <script src="https://at.alicdn.com/t/font_2568549_4cha7hgqdx1.js"></script>
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+        <h1>你还想知道些什么呢？</h1>
+        <p class="fs-5 col-md-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;计算机协会是一个集学习、资源、娱乐、电竞为一体的多元化学生组织，是我校计算机人才与热爱计算机的各类同学的交流的平台，也是一个全校性、专业性、服务性的学生团体组织。本协会将通过组织各类专业知识讲座，与形式多样的技能竞赛，培养同学们对计算机的兴趣，全面提高会员的专业知识水平和实际操作计算机的能力，为本校培养出更多的计算机专业人才。</p>
+
+        <div class="mb-5">
+            <a class="btn btn-primary btn-lg px-4">社团QQ群</a>
+        </div>
+
+        <hr class="col-3 col-md-2 mb-5">
+
+        <div class="row g-5">
+            <div class="col-md-6">
+                <h2>公告栏</h2>
+                <p>社团的近期动态，会在这里呈现。</p>
+                <ul class="icon-list">
+                    <li><a href="https://github.com/twbs/bootstrap-npm-starter" rel="noopener" target="_blank">维护：5月24日更新公告</a>
+                    </li>
+                    <li class="text-muted">活动：《电影放映周》即将开放</li>
+                    <li class="text-muted">活动：《义务维修日》已结束</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <h2>内容公示</h2>
+                <p>这里会公布社团的一些内容，你可以查看您感兴趣的内容。</p>
+                <ul class="icon-list">
+                    <li><a href="">2020.5-2021.5 财务明细账</a></li>
+                    <li><a href="">社团黑名单</a></li>
+                    <li><a href="">测试1</a></li>
+                    <li><a href="">测试2</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--    <div class="row featurette">-->
+        <!--      <div class="col-md-7">-->
+        <!--        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>-->
+        <!--        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>-->
+        <!--      </div>-->
+        <!--      <div class="col-md-5">-->
+        <!--        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
+
+        <!--      </div>-->
+        <!--    </div>-->
+
+        <!--    <hr class="featurette-divider">-->
+
+        <!--    <div class="row featurette">-->
+        <!--      <div class="col-md-7 order-md-2">-->
+        <!--        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>-->
+        <!--        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>-->
+        <!--      </div>-->
+        <!--      <div class="col-md-5 order-md-1">-->
+        <!--        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
+
+        <!--      </div>-->
+        <!--    </div>-->
+
+        <!--    <hr class="featurette-divider">-->
+
+        <!--    <div class="row featurette">-->
+        <!--      <div class="col-md-7">-->
+        <!--        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>-->
+        <!--        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>-->
+        <!--      </div>-->
+        <!--      <div class="col-md-5">-->
+        <!--        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
+
+        <!--      </div>-->
+        <!--    </div>-->
+
+        <hr class="featurette-divider">
+
+        <h2 class="display-6 text-center mb-4">对我们感兴趣？</h2>
+        <div class="table-responsive">
+            <table class="table text-center">
+                <thead>
+                <tr>
+                    <th style="width: 34%;"></th>
+                    <th style="width: 22%;">普通用户</th>
+                    <th style="width: 22%;">协会会员</th>
+                    <th style="width: 22%;">协会助理</th>
+                </tr>
+                </thead>
+                <tr>
+                    <th class="text-start" scope="row">开放内容</th>
+                    <td>√</td>
+                    <td>√</td>
+                    <td>√</td>
+                </tr>
+                <tr>
+                    <th class="text-start" scope="row">专属内容</th>
+                    <td></td>
+                    <td>√</td>
+                    <td>√</td>
+                </tr>
+
+                <tbody>
+
+                <tr>
+                    <th class="text-start" scope="row">活动</th>
+                    <td>仅限开放</td>
+                    <td>√</td>
+                    <td>√</td>
+                </tr>
+                <tr>
+                    <th class="text-start" scope="row">资源</th>
+                    <td>仅限开放</td>
+                    <td>√</td>
+                    <td>√</td>
+                </tr>
+                <tr>
+                    <th class="text-start" scope="row">工作</th>
+                    <td></td>
+                    <td></td>
+                    <td>√</td>
+                </tr>
+                <tr>
+                    <th class="text-start" scope="row">其它</th>
+                    <td></td>
+                    <td></td>
+                    <td>√</td>
+                </tr>
+                <tr>
+                    <th class="text-start" scope="row">交友率</th>
+                    <td>20%</td>
+                    <td>50%</td>
+                    <td>99%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- /END THE FEATURETTES -->
+        <hr class="featurette-divider">
+    </div><!-- /.container -->
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-end"><a class="Link" href="#">回到顶部 <span class="english_font">/ Back to top</span></a></p><br>
+
+      <p style="text-align: center">
+
+        <br>
+        Copyright © 2021 桂ICP备2021000579号<a class="Link" href="mqqwpa://im/chat?chat_type=wpa&uin=644669785&version=1&src_type=web"> 谭期元(644669785@qq.com) </a>All Rights Reserved.
+        <br>
+        <a class="Link" href="https://www.gxufl.com/">广西外国语学院</a></p>
+    </footer>
+
+</main>
+
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
