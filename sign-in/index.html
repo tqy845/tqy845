@@ -11,8 +11,6 @@
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
 
-
-
   <!-- Bootstrap core CSS -->
   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -32,8 +30,9 @@
     }
 
     main {
-      border: 1px solid rgb(119, 119, 119);
       border-radius: 10px;
+      background-color: transparent;
+      box-shadow: 0px 0px 100px #fff inset;
     }
 
     form>button>span,
@@ -43,15 +42,37 @@
 
     form>a:nth-child(2) {
       float: right;
-      padding: 2px;
-      border-radius: 3px;
+      padding: 2px 5px;
+      border-radius: 5px;
       text-decoration: none;
     }
 
-    form > img{
+    form>img {
       position: relative;
-      left: 20px;
+      left: 25px;
     }
+
+    form>div>span {
+      padding: 0px 0 0 40px;
+      /* background-color: red; */
+    }
+
+    body {
+      background-image: linear-gradient(to right top, #fff, rgb(33, 37, 41));
+    }
+
+    form:last-child {
+      display:none;
+    }
+
+    form:first-child {
+      display: block;
+    }
+
+    #NewPasswordValidation{
+      margin-top: -10px;
+    }
+
   </style>
 
 
@@ -62,7 +83,8 @@
 <body class="text-center">
 
   <main class="form-signin">
-    <form action="">
+    <!-- 登陆 -->
+    <form action="" id="sign-in">
       <img class="mb-4" src="../base/image/jixielogo.png" alt="" width="100px" height="100px">
       <a class="btn-secondary" href="../index.html">返回</a>
       <h1 class="h3 mb-3 fw-normal">登陆，计算机协会。</h1>
@@ -80,17 +102,73 @@
         <label>
           <input type="checkbox" value="remember-me"> 请记住我
         </label>
-
+        <span>忘记密码？<a href="#" id="rpassword">找回。</a></span>
       </div>
-      <button class="w-50 btn btn-lg btn-primary" type="submit">登陆 <span> / Sign in</span></button>
-      <a class="w-25 btn btn-lg btn-warning" href="">找密 <span></span></a>
-      <p class="mt-5 mb-3 text-muted">&copy; Copyright © 2020-2021 桂ICP备2021000579号-1 谭期元(644669785@qq.com) All Rights
-        Reserved.</p>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">登陆 <span> / Sign in</span></button>
+      <br><br>
+      <span class="mt-5 mb-3 text-muted">Copyright © 2020-2021 桂ICP备2021000579号-1 谭期元(644669785@qq.com) All Rights
+        Reserved.</span>
+    </form>
+
+    <!-- 找回密码 -->
+    <form action="" id="reset-password">
+      <img class="mb-4" src="../base/image/jixielogo.png" alt="" width="100px" height="100px">
+      <a class="btn-secondary" id="sibtn">登陆</a>
+      <h1 class="h3 mb-3 fw-normal">忘记？找回您的密码。</h1>
+
+      <div class="form-floating">
+        <input type="text" class="form-control" id="AccountStudentID" placeholder="Account、Student ID">
+        <label for="floatingInput">账号/学号<span> / Account、Student ID</span></label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="EamilVerificationCode" placeholder="Eamil Verification Code">
+        <label for="floatingInput">邮箱验证码<span> / Eamil Verification Code</span></label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="NewPassword" placeholder="New Password">
+        <label for="floatingInput">新密码<span> / New Password</span></label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="NewPasswordValidation" placeholder="New Password Validation">
+        <label for="floatingPassword">新密码确认<span> / New Password Validation</span></label>
+      </div>
+      <div class="checkbox mb-3">
+        <label>验证码5分钟内有效，<a href="#" id="rpassword">发送。</a>
+        </label>
+        
+      </div>
+      
+      <button class="w-100 btn btn-lg btn-warning" type="submit">重置 <span> / Reset</span></button>
+      <br><br>
+      <span class="mt-5 mb-3 text-muted">Copyright © 2020-2021 桂ICP备2021000579号-1 谭期元(644669785@qq.com) All Rights
+        Reserved.</span>
     </form>
   </main>
 
 
+  <script>
 
+        
+    // 获取按钮对象
+    var rpassword = document.getElementById('rpassword');
+    // 绑定鼠标单击事件
+    rpassword.addEventListener('click', function () {
+      // 隐藏登陆窗口
+      document.getElementById('sign-in').style.display="none";
+      // 显示找回密码窗口
+      document.getElementById('reset-password').style.display="block";
+    })
+
+        // 获取按钮对象
+        var rpassword = document.getElementById('sibtn');
+    // 绑定鼠标单击事件
+    rpassword.addEventListener('click', function () {
+      // 隐藏登陆窗口
+      document.getElementById('sign-in').style.display="block";
+      // 显示找回密码窗口
+      document.getElementById('reset-password').style.display="none";
+    })
+  </script>
 </body>
 
 </html>
